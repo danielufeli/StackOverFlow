@@ -12,16 +12,17 @@
  <body class="text-center">
  	<header id = 'header'>
  	</header>
-	<form action="./signin.html" method="get" class="form-signin">
+	<form class="form-signin" id="signUpForm">
  		<h1 class="h3 mb-3 font-weight-normal">Please fill out this form to sign up</h1>
- 		<input type="text" id="firstname" name="firstname" required placeholder="firstname" class="form-control">
-		<input type ="text" id="lastname" name="lastname" required placeholder="lastname" class="form-control">
-		<input type ="email" id="email" name="email" required placeholder="email" class="form-control">
-		<input type ="password" id="password" min="6" name="password" placeholder="password" class="form-control">
-    <input type ="confirm_password" id="confirm_password" min="6" name="confirm_password" placeholder="confirm password" class="form-control">
-		<button type="submit" class="btn btn-lg btn-primary btn-block">Sign Up</button>
+ 		<input type="text" id="fname" name="firstname" required placeholder="firstname" class="form-control">
+		<input type="text" id="lname" name="lastname" required placeholder="lastname" class="form-control">
+		<input type="email" id="email" name="email" required placeholder="email" class="form-control">
+		<input type="password" id="password" min="6" name="password" placeholder="password" class="form-control">
+    <input type="password" id="confirmpassword" min="6" name="confirmpassword" placeholder="confirm password" class="form-control">
+		<button type="submit" class="btn btn-lg btn-primary btn-block" id="signupBtn">Sign Up</button>
  	</form>
  </body>
+ <script src="assets/js/signup.js"></script>
  <script type = "module" src = "./header.js">
 		</script>
 </html>
