@@ -15,20 +15,20 @@
   <body class="text-center">
     <header id = 'header'>
     </header>
-    <form class="form-signin">
+    <form class="form-signin" id="signForm">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" id="password" class="form-control" placeholder="Password" required>
         <div class="checkbox mb-3">
           <label>
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="loginBtn">Sign in</button>
         <a href="./index.html">back to homepage</a>
         <p class="mt-5 mb-3 text-muted">&copy; StackOverFlow 2019</p>
 
       </form>
-
+      <script src="assets/js/signin.js"></script>
   </body>
 </html>
